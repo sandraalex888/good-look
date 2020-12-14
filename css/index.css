@@ -1,0 +1,210 @@
+header {
+    background-image: url(../img/atelie.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 810px;
+    max-width: 1280px;
+
+}
+
+.menu a, .meet {
+    font-family: 'constantia';
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+button.meet{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white; 
+    transition-duration: 0.2s;
+}
+.meet:hover{
+    background-color:white;
+    color: black;
+}
+
+nav .menu {
+       position: absolute;
+       right: 60px;   
+   }
+
+   .logo {
+    color:#F81212; 
+}
+.logo-a {
+    color: white;
+   
+}
+
+.banner {
+    font-family: 'ARIAL BLACK', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 300px;
+}
+.banner h1 {
+    text-align: center;
+}
+.banner h3 {
+    text-align: center;
+}
+.dream {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+.text-about {
+    font-size: 20px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 3%; 
+}
+.serves-card {
+    background-image: url(../img/atelie-room.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    max-width: 1280px;
+}
+.serves-card h2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+.order-n img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+.order-n {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+    background-color:  #E1C095;
+}
+.order-w img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+.order-w {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+    background-color:  #E1C095;
+}
+.order-d img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+.order-d {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+    background-color:  #E1C095;
+}
+.works-card h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+.twid img {
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-right: auto;
+}
+.twid p {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+}
+.suit-cell img {
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-right: auto;
+}
+.suit-cell p {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+}
+.dress-rose img {
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-right: auto;
+}
+.dress-rose p {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+}
+
+.suit-black img {
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-right: auto;
+}
+.suit-black p {
+    border: 1px solid black;
+    max-width: 18rem;
+    padding: 5px;
+}
+button.w-card {
+    background-color: transparent;
+    color:black;
+    border: 3px solid #E1C095; 
+    transition-duration: 0.2s;
+    padding: 20px;
+    font-size: 25px;
+    margin: 0 0.3em 0.3em 0;
+
+}
+.w-card:hover{
+    background-color:#E1C095;
+    color: red;
+}
+@media (min-width: 300px) {
+    .order-n, .order-w, .order-d {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    float: left;
+    margin-left: 20px; 
+}
+}
+
+@media (min-width: 800px) {
+    .works-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    float: left;
+}
+}
+.list-card {
+    background-image: url(../img/red.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 810px;
+    max-width: 1280px;
+}
+.list-card h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.list-card ul{
+    font-size: 30px;
+    color: white;
+    text-align: left;  
+}
